@@ -1,0 +1,202 @@
+@font-face {
+  font-family: 'Jano Sans Pro';
+  src: url('fonts/JanoSansProBold.ttf') format('truetype');
+}
+.font--Staffs {
+  color: white;
+  font-family: Arial;
+}
+.font--JustEat {
+  color: white;
+  font-family: 'Jano Sans Pro';
+}
+.clickdealer-text {
+  font-family: "Helvetica";
+  font-size: 15px;
+}
+.shadow {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.text-with-shadow {
+  text-shadow: 4px 4px 8px #000;
+}
+.rounded-container {
+  -webkit-border-radius: 4px 3px 6px 10px;
+  -moz-border-radius: 4px 3px 6px 10px;
+  -o-border-radius: 4px 3px 6px 10px;
+  border-radius: 4px 3px 6px 10px;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.center--horizontal {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.intro {
+  font-weight: bolder;
+  font-family: "Helvetica";
+  font-size: 30px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.buttonbox {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+.body {
+  height: auto;
+}
+.background {
+  -webkit-border-radius: 4px 3px 6px 10px;
+  -moz-border-radius: 4px 3px 6px 10px;
+  -o-border-radius: 4px 3px 6px 10px;
+  border-radius: 4px 3px 6px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+  margin: 15px;
+  border: 15px solid #8e8f8e;
+  background-color: #b9b9b9;
+  min-height: 0;
+}
+br {
+  content: "";
+  margin: 2em;
+  display: block;
+  font-size: 30px;
+}
+.column1 {
+  font-family: "Helvetica";
+  font-size: 15px;
+  -webkit-border-radius: 4px 3px 6px 10px;
+  -moz-border-radius: 4px 3px 6px 10px;
+  -o-border-radius: 4px 3px 6px 10px;
+  border-radius: 4px 3px 6px 10px;
+  position: relative;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid #8e8f8e;
+  height: auto;
+  display: inline-block;
+  min-width: 0;
+  margin: auto;
+  display: block;
+}
+.column2 {
+  font-size: 15px;
+  -webkit-border-radius: 4px 3px 6px 10px;
+  -moz-border-radius: 4px 3px 6px 10px;
+  -o-border-radius: 4px 3px 6px 10px;
+  border-radius: 4px 3px 6px 10px;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #8e8f8e;
+  min-height: 0;
+  font-family: "Helvetica";
+  display: inline-block;
+  min-width: 0;
+  background-color: #d6d6d6;
+}
+.column3 {
+  -webkit-border-radius: 4px 3px 6px 10px;
+  -moz-border-radius: 4px 3px 6px 10px;
+  -o-border-radius: 4px 3px 6px 10px;
+  border-radius: 4px 3px 6px 10px;
+  position: relative;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Jano Sans Pro';
+  border: 5px solid #8e8f8e;
+  min-height: 0;
+  display: inline-block;
+  min-width: 0;
+  background-color: #b6b6b6;
+}
+.button--ClickDealer {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #896c01;
+  border-radius: 17px;
+  background: #deb001;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button--ClickDealer:hover,
+.button--ClickDealer:focus {
+  border: 1px solid #ab8701;
+  background: #ffd301;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button--ClickDealer:active {
+  background: #896c01;
+}
+.button--Staffs {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #500000;
+  border-radius: 17px;
+  background: #de0101;
+  font: normal normal bold 20px arial;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button--Staffs:hover,
+.button--Staffs:focus {
+  border: 1px solid #500000;
+  background: #ff5959;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button--Staffs:active {
+  background: #ff7676;
+}
+.button--JustEat {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  padding: 12px 24px;
+  border: 1px solid #ff6600;
+  border-radius: 17px;
+  background: #ff8636;
+  color: white;
+  font-family: 'Jano Sans Pro';
+  text-decoration: none;
+}
+.button--JustEat:hover,
+.button--JustEat:focus {
+  border: 1px solid #ff6600;
+  background: #ffaa83;
+  color: #ffffff;
+  text-decoration: none;
+}
+.button--JustEat:active {
+  background: #fcbf8e;
+}
